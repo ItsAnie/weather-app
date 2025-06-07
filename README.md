@@ -16,7 +16,7 @@ A simple and user-friendly weather application built with React and Vite. It use
 ## Getting Started
 
 1. Clone the repository  
-   `git clone https://github.com/your-username/weather-app.git`
+   `git clone https://github.com/ItsAnie/weather-app.git`
 
 2. Install dependencies  
    `npm install`
