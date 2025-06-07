@@ -1,0 +1,39 @@
+.weather-app{
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+input{
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #2196f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background: #0b7dda; 
+}
+
+.weather-info{
+    margin-top: 20px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+
+.error{
+    color: red;
+    margin-top: 10px;
+}
