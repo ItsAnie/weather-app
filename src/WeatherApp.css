@@ -1,39 +1,65 @@
-.weather-app{
-    width: 300px;
-    margin: 50px auto;
+/* WeatherApp.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('public/back-img.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+}
+
+.weather-app {
     text-align: center;
-    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.5); 
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
-input{
+.weather-app h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.weather-app input {
     padding: 10px;
-    width: 80%;
-    margin: 10px 0;
-    font-size: 16px;
-}
-
-button{
-    padding: 10px 20px;
-    font-size: 16px;
-    background: #2196f3;
-    color: white;
     border: none;
-    cursor: pointer;
     border-radius: 5px;
+    width: 70%;
+    margin-bottom: 15px;
+    font-size: 1em;
 }
 
-button:hover{
-    background: #0b7dda; 
+.weather-app button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #2196F3;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.weather-info{
+.weather-app button:hover {
+    background-color: #1976D2;
+}
+
+.weather-info {
     margin-top: 20px;
-    padding: 10px;
-    background: #f0f0f0;
-    border-radius: 10px;
 }
 
-.error{
+.weather-info p {
+    margin: 5px 0;
+}
+
+.error {
     color: red;
     margin-top: 10px;
 }
