@@ -45,7 +45,7 @@ function WeatherApp(){
                     <h2>{weather.name}, {weather.sys.country}</h2>
                     <p>Temperature: {weather.main.temp}°C</p>
                     <p>The Weather: {weather.weather[0].description} m/s</p>
-                    <p>Wind: {weather.wind.speed}°C</p>
+                    <p>Wind: {weather.wind.speed}</p>
                 </div>
             )}
         </div>
